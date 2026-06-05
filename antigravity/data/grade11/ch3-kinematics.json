@@ -1,0 +1,61 @@
+{
+  "id": 3,
+  "grade": 11,
+  "slug": "kinematics",
+  "unit": { "en": "Mechanics", "np": "यान्त्रिकी" },
+  "title": { "en": "Kinematics", "np": "शुद्ध गतिविज्ञान" },
+  "topics": [
+    {
+      "title": { "en": "Equations of Motion", "np": "गतिका समीकरणहरू" },
+      "content": {
+        "en": "For a body moving along a straight line with uniform acceleration, there are fundamental equations relating displacement (s), initial velocity (u), final velocity (v), acceleration (a), and time (t). These equations are derived using calculus or graphical methods and are only applicable when acceleration is constant.",
+        "np": "एकसमान प्रवेगमा सिधा रेखामा यात्रा गरिरहेको वस्तुको विस्थापन (s), सुरुको वेग (u), अन्तिम वेग (v), प्रवेग (a), र समय (t) बीच सम्बन्ध देखाउने समीकरणहरूलाई गतिका समीकरणहरू भनिन्छ। यी समीकरणहरू प्रवेग स्थिर भएको बेला मात्र लागू हुन्छन्।"
+      },
+      "formulas": [
+        "v = u + at",
+        "s = ut + 0.5at²",
+        "v² = u² + 2as"
+      ]
+    },
+    {
+      "title": { "en": "Projectile Motion", "np": "प्रक्षेप्य गति" },
+      "content": {
+        "en": "A projectile is an object thrown into space upon which the only acting force is gravity. Projectile motion is a two-dimensional motion consisting of horizontal motion with constant velocity (no horizontal acceleration) and vertical motion with constant acceleration due to gravity (g). The trajectory of a projectile is parabolic.",
+        "np": "हवामा फ्याँकिएको वस्तु जसको गति केवल गुरुत्वाकर्षणको प्रभावमा हुन्छ, त्यसलाई प्रक्षेप्य (Projectile) भनिन्छ। यो एक दुई-आयामी गति हो जसमा तेर्सो दिशामा स्थिर वेग (शून्य प्रवेग) र ठाडो दिशामा एकसमान गुरुत्वप्रवेग (g) हुन्छ। प्रक्षेप्यको मार्ग परवलयाकार (Parabolic) हुन्छ।"
+      },
+      "formulas": [
+        "Time of Flight: T = 2u sinθ / g",
+        "Maximum Height: H = u² sin²θ / 2g",
+        "Horizontal Range: R = u² sin2θ / g"
+      ]
+    }
+  ],
+  "importantQuestions": [
+    {
+      "id": 1,
+      "type": "short",
+      "marks": 2,
+      "question": {
+        "en": "At what angle of projection is the horizontal range of a projectile maximum?",
+        "np": "कुन प्रक्षेपण कोणमा प्रक्षेप्यको तेर्सो दुरी (Range) अधिकतम हुन्छ?"
+      },
+      "solution": {
+        "en": "The horizontal range of a projectile is given by R = u² sin2θ / g. For a given initial velocity u, the range R is maximum when sin2θ is maximum. The maximum value of sine is 1, which occurs at 90°.\nThus, 2θ = 90° ⇒ θ = 45°.\nTherefore, the horizontal range is maximum when the angle of projection is 45°.",
+        "np": "प्रक्षेप्यको तेर्सो दुरी (Range) को सूत्र R = u² sin2θ / g हुन्छ। निश्चित वेग u का लागि Range अधिकतम हुन sin2θ को मान अधिकतम (१) हुनुपर्छ।\nsin2θ = १ ⇒ २θ = ९०° ⇒ θ = ४५°।\nतसर्थ, ४५° को कोणमा फ्याँक्दा प्रक्षेप्यको तेर्सो दूरी सबैभन्दा बढी हुन्छ।"
+      }
+    },
+    {
+      "id": 2,
+      "type": "numerical",
+      "marks": 4,
+      "question": {
+        "en": "A football is kicked with a velocity of 20 m/s at an angle of 30° with the horizontal. Calculate the maximum height reached and the time of flight. (Take g = 10 m/s²)",
+        "np": "एउटा फुटबललाई २० मि/से को वेगमा तेर्सोसँग ३०° को कोण पारेर हिर्काइन्छ। त्यसले लिने अधिकतम उचाइ र उडान समय (Time of flight) गणना गर्नुहोस्। (g = १० मि/से²)"
+      },
+      "solution": {
+        "en": "Given:\nInitial velocity (u) = 20 m/s\nAngle of projection (θ) = 30°\nAcceleration due to gravity (g) = 10 m/s²\n\n**1. Maximum Height (H):**\nH = u² sin²θ / 2g = (20)² * (sin 30°)² / (2 * 10)\nH = 400 * (0.5)² / 20 = 20 * 0.25 = 5 meters\n\n**2. Time of Flight (T):**\nT = 2u sinθ / g = 2 * 20 * sin 30° / 10\nT = 40 * 0.5 / 10 = 2 seconds\n\nSo, the maximum height reached is 5 meters and the time of flight is 2 seconds.",
+        "np": "दिइएको विवरण:\nसुरुको वेग (u) = २० मि/से\nप्रक्षेपण कोण (θ) = ३०°\nगुरुत्वप्रवेग (g) = १० मि/से²\n\n**१. अधिकतम उचाइ (H):**\nH = u² sin²θ / 2g = (२०)² * (sin ३०°१)² / (२ * १०)\nH = ४०० * (०.५)² / २० = २० * ०.२५ = ५ मिटर\n\n**२. उडान समय (T):**\nT = 2u sinθ / g = २ * २० * sin ३०° / १०\nT = ४० * ०.५ / १० = २ सेकेन्ड\n\nतसर्थ, फुटबलले ५ मिटरको उचाइ लिन्छ र यसको उडान समय २ सेकेन्ड हुन्छ।"
+      }
+    }
+  ]
+}

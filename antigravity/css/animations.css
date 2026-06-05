@@ -1,0 +1,122 @@
+/* ============================================================
+   Physics Insight — Animations and Transitions
+   ============================================================ */
+
+/* Page Fade and Slide In */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Floating Animations */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Orbiting Animation for Hero */
+@keyframes orbit {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Glow Pulses */
+@keyframes glowPulse {
+    0% { box-shadow: 0 0 15px rgba(124, 58, 237, 0.2); }
+    50% { box-shadow: 0 0 25px rgba(124, 58, 237, 0.4); }
+    100% { box-shadow: 0 0 15px rgba(124, 58, 237, 0.2); }
+}
+
+@keyframes timerPulse {
+    0% { transform: scale(1); filter: drop-shadow(0 0 2px rgba(239, 68, 68, 0.2)); }
+    50% { transform: scale(1.08); filter: drop-shadow(0 0 10px rgba(239, 68, 68, 0.6)); }
+    100% { transform: scale(1); filter: drop-shadow(0 0 2px rgba(239, 68, 68, 0.2)); }
+}
+
+/* Shake on Wrong Answer */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-6px); }
+    40%, 80% { transform: translateX(6px); }
+}
+
+/* Spinners */
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Particle Drift for backgrounds */
+@keyframes particleDrift {
+    0% { background-position: 0 0; }
+    100% { background-position: 100px 100px; }
+}
+
+/* Helper Animation Classes */
+.page-enter {
+    animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-float {
+    animation: float 4s ease-in-out infinite;
+}
+
+.animate-shake {
+    animation: shake 0.4s ease-in-out;
+}
+
+/* Animation Staggering */
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+
+/* Transitions */
+.transition-fast { transition: all 0.15s ease; }
+.transition-normal { transition: all 0.3s ease; }
+.transition-slow { transition: all 0.5s ease; }
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
