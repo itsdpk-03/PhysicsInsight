@@ -1,0 +1,55 @@
+{
+  "grade": 12,
+  "units": [
+    {
+      "name": { "en": "Mechanics", "np": "यान्त्रिकी" },
+      "chapters": [
+        { "id": 1, "slug": "rotational-dynamics", "title": { "en": "Rotational Dynamics", "np": "घूर्णन गतिविज्ञान" }, "questionCount": 8 },
+        { "id": 2, "slug": "periodic-motion", "title": { "en": "Periodic Motion", "np": "आवर्त गति" }, "questionCount": 8 },
+        { "id": 3, "slug": "fluid-statics", "title": { "en": "Fluid Statics", "np": "तरल स्थितिविज्ञान" }, "questionCount": 0 }
+      ]
+    },
+    {
+      "name": { "en": "Heat and Thermodynamics", "np": "ताप र तापगतिकी" },
+      "chapters": [
+        { "id": 4, "slug": "first-law-thermodynamics", "title": { "en": "First Law of Thermodynamics", "np": "तापगतिकीको पहिलो नियम" }, "questionCount": 0 },
+        { "id": 5, "slug": "second-law-thermodynamics", "title": { "en": "Second Law of Thermodynamics", "np": "तापगतिकीको दोस्रो नियम" }, "questionCount": 0 }
+      ]
+    },
+    {
+      "name": { "en": "Wave and Optics", "np": "तरङ्ग र प्रकाशिकी" },
+      "chapters": [
+        { "id": 6, "slug": "wave-motion", "title": { "en": "Wave Motion", "np": "तरङ्ग गति" }, "questionCount": 0 },
+        { "id": 7, "slug": "mechanical-waves", "title": { "en": "Mechanical Waves", "np": "यान्त्रिक तरङ्गहरू" }, "questionCount": 0 },
+        { "id": 8, "slug": "waves-pipes-strings", "title": { "en": "Waves in Pipes and Strings", "np": "पाइप र तारहरूमा तरङ्गहरू" }, "questionCount": 0 },
+        { "id": 9, "slug": "acoustic-phenomena", "title": { "en": "Acoustic Phenomena", "np": "ध्वनिक घटनाहरू" }, "questionCount": 0 },
+        { "id": 10, "slug": "nature-propagation-light", "title": { "en": "Nature and Propagation of Light", "np": "प्रकाशको प्रकृति र प्रसारण" }, "questionCount": 0 },
+        { "id": 11, "slug": "interference", "title": { "en": "Interference", "np": "व्यतिकरण" }, "questionCount": 0 },
+        { "id": 12, "slug": "diffraction", "title": { "en": "Diffraction", "np": "विवर्तन" }, "questionCount": 0 },
+        { "id": 13, "slug": "polarization", "title": { "en": "Polarization", "np": "ध्रुवीकरण" }, "questionCount": 0 }
+      ]
+    },
+    {
+      "name": { "en": "Electricity and Magnetism", "np": "विद्युत र चुम्बकत्व" },
+      "chapters": [
+        { "id": 14, "slug": "electrical-circuits", "title": { "en": "Electrical Circuits", "np": "विद्युतीय सर्किटहरू" }, "questionCount": 0 },
+        { "id": 15, "slug": "thermoelectric-effects", "title": { "en": "Thermoelectric Effects", "np": "तापविद्युतीय प्रभावहरू" }, "questionCount": 0 },
+        { "id": 16, "slug": "magnetic-field", "title": { "en": "Magnetic Field", "np": "चुम्बकीय क्षेत्र" }, "questionCount": 0 },
+        { "id": 17, "slug": "magnetic-properties", "title": { "en": "Magnetic Properties of Materials", "np": "पदार्थहरूको चुम्बकीय गुणहरू" }, "questionCount": 0 },
+        { "id": 18, "slug": "electromagnetic-induction", "title": { "en": "Electromagnetic Induction", "np": "विद्युत चुम्बकीय प्रेरण" }, "questionCount": 0 },
+        { "id": 19, "slug": "alternating-currents", "title": { "en": "Alternating Currents", "np": "प्रत्यावर्ती धाराहरू" }, "questionCount": 0 }
+      ]
+    },
+    {
+      "name": { "en": "Modern Physics", "np": "आधुनिक भौतिकशास्त्र" },
+      "chapters": [
+        { "id": 20, "slug": "electrons", "title": { "en": "Electrons", "np": "इलेक्ट्रोनहरू" }, "questionCount": 0 },
+        { "id": 21, "slug": "photons", "title": { "en": "Photons", "np": "फोटोनहरू" }, "questionCount": 0 },
+        { "id": 22, "slug": "semiconductor-devices", "title": { "en": "Semiconductor Devices", "np": "अर्धचालक उपकरणहरू" }, "questionCount": 0 },
+        { "id": 23, "slug": "quantization-energy", "title": { "en": "Quantization of Energy", "np": "ऊर्जाको क्वान्टीकरण" }, "questionCount": 0 },
+        { "id": 24, "slug": "radioactivity-nuclear", "title": { "en": "Radioactivity and Nuclear Reaction", "np": "रेडियोधर्मिता र नाभिकीय प्रतिक्रिया" }, "questionCount": 0 },
+        { "id": 25, "slug": "recent-trends-12", "title": { "en": "Recent Trends in Physics", "np": "भौतिकशास्त्रका हालैका प्रवृत्तिहरू" }, "questionCount": 0 }
+      ]
+    }
+  ]
+}

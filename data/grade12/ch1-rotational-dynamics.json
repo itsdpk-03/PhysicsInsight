@@ -1,0 +1,59 @@
+{
+  "id": 1,
+  "grade": 12,
+  "slug": "rotational-dynamics",
+  "unit": { "en": "Mechanics", "np": "यान्त्रिकी" },
+  "title": { "en": "Rotational Dynamics", "np": "घूर्णन गतिविज्ञान" },
+  "topics": [
+    {
+      "title": { "en": "Moment of Inertia", "np": "जडता आघूर्ण (Moment of Inertia)" },
+      "content": {
+        "en": "Moment of inertia (I) is the rotational analog of mass. It measures a body's resistance to rotational acceleration. It depends not only on the mass of the body but also on the distribution of mass relative to the axis of rotation (I = Σmᵢrᵢ²). Radius of gyration (k) is the distance from the axis of rotation where the entire mass of the body could be concentrated to have the same moment of inertia (I = Mk²).",
+        "np": "रेखीय गतिमा पिण्ड (Mass) को जस्तै घूर्णन गतिमा जडता आघूर्ण (I) हुन्छ। यसले वस्तुको घुम्ने गतिको परिवर्तनलाई प्रतिरोध गर्ने क्षमता जनाउँछ। यो वस्तुको पिण्ड र उक्त पिण्ड घूर्णन अक्ष (Axis) बाट कति टाढा फैलिएको छ भन्ने कुरामा निर्भर गर्दछ (I = Σmᵢrᵢ²)।"
+      },
+      "formulas": [
+        "Moment of Inertia: I = M k²",
+        "Kinetic Energy of Rotation: K.E. = 0.5 I ω²"
+      ]
+    },
+    {
+      "title": { "en": "Conservation of Angular Momentum", "np": "कोणीय संवेगको संरक्षण नियम" },
+      "content": {
+        "en": "Law of Conservation of Angular Momentum states that if no external torque acts on a system, the total angular momentum of the system remains constant (L = Iω = constant). This explains why a spinning ice skater spins faster when they pull their arms close to their body: pulling arms in decreases their moment of inertia (I), so angular velocity (ω) must increase to keep L constant.",
+        "np": "कोणीय संवेगको संरक्षणको नियम अनुसार यदि प्रणालीमा कुनै बाह्य बल आघूर्ण (Torque) लागेको छैन भने, प्रणालीको कूल कोणीय संवेग (L = Iω) स्थिर रहन्छ। यसैले घुमिरहेको स्केटरले हात खुम्च्याउँदा जडता आघूर्ण (I) घट्छ र कोणीय गति (ω) बढ्छ ताकि L स्थिर रहोस्।"
+      },
+      "formulas": [
+        "Angular Momentum: L = I ω",
+        "Torque: τ = dL / dt = I α"
+      ]
+    }
+  ],
+  "importantQuestions": [
+    {
+      "id": 1,
+      "type": "short",
+      "marks": 2,
+      "question": {
+        "en": "Why does a helicopter have two rotors (propellers)?",
+        "np": "हेलिकप्टरमा किन दुईवटा रोटर (प्रोपेलर) हरू हुन्छन्?"
+      },
+      "solution": {
+        "en": "This is based on the law of conservation of angular momentum. When the main rotor spins, it gains angular momentum in one direction. By the conservation of angular momentum, the fuselage (body) of the helicopter would start spinning in the opposite direction. To counteract this unwanted torque and maintain stability, a second tail rotor (or twin coaxial main rotors) is used to apply a counteracting torque.",
+        "np": "यो कोणीय संवेग संरक्षणको सिद्धान्तमा आधारित छ। हेलिकप्टरको मुख्य पंखा घुम्दा यसले एक दिशामा कोणीय संवेग प्राप्त गर्छ। संरक्षणको नियम अनुसार हेलिकप्टरको मुख्य भाग विपरित दिशामा घुम्न थाल्छ। यो अनावश्यक घुमाउरो बललाई नियन्त्रण गर्न र हेलिकप्टरलाई स्थिर राख्न पुच्छरमा दोस्रो पंखा (Tail rotor) राखिन्छ।"
+      }
+    },
+    {
+      "id": 2,
+      "type": "numerical",
+      "marks": 4,
+      "question": {
+        "en": "A fly-wheel of mass 50 kg and radius of gyration 0.2 m is spinning at 300 rpm. Calculate its moment of inertia and rotational kinetic energy.",
+        "np": "५० केजी पिण्ड र ०.२ मिटर चक्र परिक्रमण अर्धव्यास (Radius of gyration) भएको एउटा फ्लाई-ह्विल ३०० rpm मा घुमिरहेको छ। यसको जडता आघूर्ण र घूर्णन गतिशक्ति गणना गर्नुहोस्।"
+      },
+      "solution": {
+        "en": "Given:\nMass (M) = 50 kg\nRadius of gyration (k) = 0.2 m\nRotational speed (N) = 300 rpm\n\n**1. Calculate Moment of Inertia (I):**\nI = M * k² = 50 * (0.2)² = 50 * 0.04 = 2 kg m²\n\n**2. Calculate Angular Velocity (ω):**\nω = 2πN / 60 = 2 * π * 300 / 60 = 10π ≈ 31.42 rad/s\n\n**3. Calculate Rotational Kinetic Energy (K.E.):**\nRotational K.E. = 0.5 * I * ω² = 0.5 * 2 * (10π)² = (10π)² = 100π² ≈ 986.96 Joules\n\nTherefore, the moment of inertia is 2 kg m² and the rotational kinetic energy is approximately 986.96 J.",
+        "np": "दिइएको विवरण:\nपिण्ड (M) = ५० केजी\nRadius of gyration (k) = ०.२ मिटर\nघुम्ने दर (N) = ३०० rpm\n\n**१. जडता आघूर्ण (I) को गणना:**\nI = M * k² = ५० * (०.२)² = ५० * ०.०४ = २ केजी मि²\n\n**२. कोणीय वेग (ω) को गणना:**\nω = २πN / ६० = २ * π * ३०० / ६० = १०π ≈ ३१.४२ rad/s\n\n**३. घूर्णन गतिशक्ति (K.E.) को गणना:**\nघूर्णन K.E. = ०.५ * I * ω² = ०.५ * २ * (१०π)² = १००π² ≈ ९८६.९६ जुल\n\nतसर्थ, जडता आघूर्ण २ केजी मि² र घूर्णन गतिशक्ति लगभग ९८६.९६ जुल हुन्छ।"
+      }
+    }
+  ]
+}

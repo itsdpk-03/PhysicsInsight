@@ -1,0 +1,59 @@
+{
+  "id": 2,
+  "grade": 11,
+  "slug": "vectors",
+  "unit": { "en": "Mechanics", "np": "यान्त्रिकी" },
+  "title": { "en": "Vectors", "np": "सदिशहरू" },
+  "topics": [
+    {
+      "title": { "en": "Addition of Vectors", "np": "सदिशहरूको जोड" },
+      "content": {
+        "en": "Vectors cannot be added by simple algebraic rules. Triangle Law of Vector Addition states that if two vectors are represented in magnitude and direction by two sides of a triangle taken in order, their resultant is represented by the third side taken in opposite order. Parallelogram Law states that if two vectors starting from a common point are represented by adjacent sides of a parallelogram, the diagonal represents their resultant in magnitude and direction.",
+        "np": "सदिशहरूलाई साधारण बीजगणितीय नियमहरूद्वारा जोड्न सकिँदैन। सदिश जोडको त्रिभुज नियम (Triangle Law) अनुसार यदि दुई सदिशहरूलाई परिमाण र दिशाका साथ एउटा त्रिभुजका दुई क्रमिक भुजाहरूले जनाउँछ भने, तिनीहरूको परिणामी सदिश (Resultant) लाई विपरित क्रममा रहेको तेस्रो भुजाले जनाउँछ। समानान्तर चतुर्भुजको नियम (Parallelogram Law) ले दुई आसन्न भुजाहरूले जनाउने सदिशहरूको परिणामी विकर्णले जनाउँछ।"
+      },
+      "formulas": [
+        "Resultant R = √(A² + B² + 2AB cosθ)",
+        "Direction tanα = B sinθ / (A + B cosθ)"
+      ]
+    },
+    {
+      "title": { "en": "Scalar and Vector Products", "np": "अदिश र सदिश गुणनफल" },
+      "content": {
+        "en": "The Scalar (Dot) product of two vectors is a scalar quantity defined as the product of their magnitudes and the cosine of the angle between them (A·B = AB cosθ). The Vector (Cross) product of two vectors is a vector quantity defined as the product of their magnitudes, the sine of the angle between them, and a unit vector perpendicular to both (A×B = AB sinθ n̂).",
+        "np": "दुई सदिशहरूको अदिश (डट) गुणनफल एउटा अदिश राशि हो जुन तिनीहरूको परिमाण र तिनीहरू बीचको कोणको कोसाइन (Cosine) को गुणनफल बराबर हुन्छ (A·B = AB cosθ)। दुई सदिशहरूको सदिश (क्रस) गुणनफल एउटा सदिश राशि हो जसको परिमाण तिनीहरूको परिमाण र साइन (Sine) को गुणनफल र दिशा दुवैमा लम्ब हुने एकाइ सदिश बराबर हुन्छ (A×B = AB sinθ n̂)।"
+      },
+      "formulas": [
+        "Dot Product: A·B = AxBx + AyBy + AzBz",
+        "Cross Product Magnitude: |A×B| = AB sinθ"
+      ]
+    }
+  ],
+  "importantQuestions": [
+    {
+      "id": 1,
+      "type": "short",
+      "marks": 2,
+      "question": {
+        "en": "Under what conditions is the dot product of two non-zero vectors zero?",
+        "np": "कुन अवस्थामा दुई गैर-शून्य सदिशहरूको डट गुणनफल (Dot Product) शून्य हुन्छ?"
+      },
+      "solution": {
+        "en": "The dot product of two vectors A and B is given by A·B = AB cosθ. For non-zero vectors, A ≠ 0 and B ≠ 0. Therefore, the dot product will be zero only if cosθ = 0, which occurs when θ = 90° (or π/2 radians). This means the two vectors must be mutually perpendicular to each other.",
+        "np": "दुई सदिशहरू A र B को डट गुणनफल A·B = AB cosθ हुन्छ। गैर-शून्य सदिशहरूका लागि A ≠ ० र B ≠ ० हुन्छ। त्यसैले, डट गुणनफल शून्य हुनका लागि cosθ = ० हुनुपर्छ, जुन θ = ९०° हुँदा मात्र सम्भव हुन्छ। यसको अर्थ दुई सदिशहरू एकअर्कामा लम्ब (Perpendicular) हुनुपर्दछ।"
+      }
+    },
+    {
+      "id": 2,
+      "type": "numerical",
+      "marks": 4,
+      "question": {
+        "en": "Find the angle between two vectors A = 2i + j - k and B = i + j - 2k.",
+        "np": "दुई सदिशहरू A = 2i + j - k र B = i + j - 2k बीचको कोण पत्ता लगाउनुहोस्।"
+      },
+      "solution": {
+        "en": "We know that A·B = AB cosθ ⇒ cosθ = (A·B) / (AB)\n\n**1. Calculate A·B:**\nA·B = (2)(1) + (1)(1) + (-1)(-2) = 2 + 1 + 2 = 5\n\n**2. Calculate magnitudes A and B:**\nMagnitude of A = √(2² + 1² + (-1)²) = √(4 + 1 + 1) = √6\nMagnitude of B = √(1² + 1² + (-2)²) = √(1 + 1 + 4) = √6\n\n**3. Calculate cosθ and θ:**\ncosθ = 5 / (√6 * √6) = 5 / 6\nθ = cos⁻¹(5/6) ≈ 33.56°\n\nHence, the angle between the vectors is approximately 33.56°.",
+        "np": "हामीलाई थाहा छ, A·B = AB cosθ ⇒ cosθ = (A·B) / (AB)\n\n**१. A·B को गणना:**\nA·B = (२)(१) + (१)(१) + (-१)(-२) = २ + १ + २ = ५\n\n**२. परिमाण A र B को गणना:**\nA को परिमाण = √(२² + १² + (-१)²) = √(४ + १ + १) = √६\nB को परिमाण = √(१² + १² + (-२)²) = √(१ + १ + ४) = √६\n\n**३. cosθ र θ को गणना:**\ncosθ = ५ / (√६ * √६) = ५ / ६\nθ = cos⁻¹(५/६) ≈ ३३.५६°\n\nतसर्थ, दुई सदिश बीचको कोण लगभग ३३.५६° हुन्छ।"
+      }
+    }
+  ]
+}

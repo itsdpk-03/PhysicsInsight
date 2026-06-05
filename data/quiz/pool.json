@@ -1,0 +1,204 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "grade": 11,
+      "chapter": 1,
+      "question": {
+        "en": "Which of the following physical quantities is dimensionless?",
+        "np": "तलका मध्ये कुन भौतिक परिमाण आयामरहित (Dimensionless) छ?"
+      },
+      "options": [
+        { "en": "Stress", "np": "तनाव (Stress)" },
+        { "en": "Strain", "np": "विकृति (Strain)" },
+        { "en": "Surface Tension", "np": "सतही तनाव (Surface Tension)" },
+        { "en": "Viscosity", "np": "चिपचिपाहट (Viscosity)" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Strain is defined as the ratio of change in dimension (like change in length) to the original dimension. Since it is a ratio of two similar physical quantities, it has no units and no dimensions.",
+        "np": "विकृति (Strain) भनेको आकारमा आउने परिवर्तन र सुरुको आकार बीचको अनुपात हो। यो दुईवटा समान परिमाणहरूको अनुपात भएकोले यसको कुनै एकाइ र आयाम हुँदैन।"
+      }
+    },
+    {
+      "id": 2,
+      "grade": 11,
+      "chapter": 2,
+      "question": {
+        "en": "If the dot product of two vectors is equal to the magnitude of their cross product, the angle between them is:",
+        "np": "यदि दुई सदिशहरूको डट गुणनफल तिनीहरूको क्रस गुणनफलको परिमाणसँग बराबर छ भने, तिनीहरू बीचको कोण कति हुन्छ?"
+      },
+      "options": [
+        { "en": "0°", "np": "०°" },
+        { "en": "30°", "np": "३०°" },
+        { "en": "45°", "np": "४५°" },
+        { "en": "90°", "np": "९०°" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Dot product A·B = AB cosθ. Cross product magnitude |A×B| = AB sinθ. If they are equal: AB cosθ = AB sinθ ⇒ sinθ/cosθ = 1 ⇒ tanθ = 1 ⇒ θ = 45°.",
+        "np": "डट गुणनफल A·B = AB cosθ र क्रस गुणनफलको परिमाण |A×B| = AB sinθ हुन्छ। यी बराबर हुँदा: AB cosθ = AB sinθ ⇒ tanθ = १ ⇒ θ = ४५° हुन्छ।"
+      }
+    },
+    {
+      "id": 3,
+      "grade": 11,
+      "chapter": 3,
+      "question": {
+        "en": "The range of a projectile thrown at an angle of 30° is same as that when thrown at an angle of:",
+        "np": "३०° को कोणमा फ्याँकिएको प्रक्षेप्यको तेर्सो दूरी (Range) कुन कोणमा फ्याँक्दा बराबर हुन्छ?"
+      },
+      "options": [
+        { "en": "45°", "np": "४५°" },
+        { "en": "60°", "np": "६०°" },
+        { "en": "90°", "np": "९०°" },
+        { "en": "120°", "np": "१२०°" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "For a given velocity, the range of a projectile is the same for complementary angles of projection, i.e., θ and (90° - θ). For θ = 30°, the range is equal to that for 90° - 30° = 60°.",
+        "np": "निश्चित गतिमा फ्याँक्दा, पूरक कोणहरू (θ र ९०° - θ) मा प्रक्षेप्यको दूरी बराबर हुन्छ। त्यसैले ३०° को लागि दूरी र ९०° - ३०° = ६०° को दूरी बराबर हुन्छ।"
+      }
+    },
+    {
+      "id": 4,
+      "grade": 12,
+      "chapter": 1,
+      "question": {
+        "en": "If a body rotates with constant angular momentum, then its rotational kinetic energy is directly proportional to:",
+        "np": "यदि कुनै वस्तु स्थिर कोणीय संवेगका साथ घुमिरहेको छ भने, यसको घूर्णन गतिशक्ति के सँग समानुपातिक हुन्छ?"
+      },
+      "options": [
+        { "en": "Moment of inertia", "np": "जडता आघूर्ण" },
+        { "en": "Reciprocal of moment of inertia", "np": "जडता आघूर्णको व्युत्क्रम (1/I)" },
+        { "en": "Square of moment of inertia", "np": "जडता आघूर्णको वर्ग" },
+        { "en": "Angular velocity", "np": "कोणीय वेग" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Rotational Kinetic Energy (K) can be expressed in terms of angular momentum (L) as K = L² / 2I. Since L is constant, K is inversely proportional to the moment of inertia I (directly proportional to 1/I).",
+        "np": "घूर्णन गतिशक्ति (K) लाई कोणीय संवेग (L) को रूपमा K = L² / २I लेख्न सकिन्छ। L स्थिर भएकोले, K जडता आघूर्ण (I) सँग उल्टो समानुपातिक (१/I सँग समानुपातिक) हुन्छ।"
+      }
+    },
+    {
+      "id": 5,
+      "grade": 12,
+      "chapter": 2,
+      "question": {
+        "en": "For a particle executing simple harmonic motion, the kinetic energy is maximum at:",
+        "np": "सरल आवर्त गतिमा रहेको कणको गतिशक्ति कुन विन्दुमा अधिकतम हुन्छ?"
+      },
+      "options": [
+        { "en": "Mean position", "np": "मध्यमान स्थिति (Mean Position)" },
+        { "en": "Extreme position", "np": "चरम स्थिति (Extreme Position)" },
+        { "en": "Halfway to extreme position", "np": "चरम स्थिति तर्फको आधा बाटोमा" },
+        { "en": "None of the above", "np": "माथिका कुनै पनि होइनन्" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "In SHM, velocity is maximum at the mean position (displacement y = 0) and zero at the extreme position. Since K.E. = 0.5 mv², kinetic energy is maximum at the mean position.",
+        "np": "सरल आवर्त गतिमा मध्यमान स्थितिमा वेग सबैभन्दा बढी र चरम स्थितिमा वेग शून्य हुन्छ। गतिशक्ति K.E. = ०.५ mv² भएकोले मध्यमान स्थितिमा गतिशक्ति अधिकतम हुन्छ।"
+      }
+    },
+    {
+      "id": 6,
+      "grade": 11,
+      "chapter": 1,
+      "question": {
+        "en": "What is the dimension of Planck's constant?",
+        "np": "प्लाङ्कको अचर (Planck's constant) को आयाम के हो?"
+      },
+      "options": [
+        { "en": "[M L T⁻¹]", "np": "[M L T⁻¹]" },
+        { "en": "[M L² T⁻¹]", "np": "[M L² T⁻¹]" },
+        { "en": "[M L² T⁻²]", "np": "[M L² T⁻²]" },
+        { "en": "[M L T⁻²]", "np": "[M L T⁻²]" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "From energy formula E = hν ⇒ h = E/ν = [M L² T⁻²] / [T⁻¹] = [M L² T⁻¹]. This is same as the dimension of angular momentum.",
+        "np": "सूत्र E = hν बाट, h = E/ν = [M L² T⁻²] / [T⁻¹] = [M L² T⁻¹] हुन्छ। यो कोणीय संवेगको आयाम जस्तै हो।"
+      }
+    },
+    {
+      "id": 7,
+      "grade": 11,
+      "chapter": 2,
+      "question": {
+        "en": "The angle between vector (i + j) and (i - j) is:",
+        "np": "सदिश (i + j) र (i - j) बीचको कोण कति हुन्छ?"
+      },
+      "options": [
+        { "en": "0°", "np": "०°" },
+        { "en": "45°", "np": "४५°" },
+        { "en": "90°", "np": "९०°" },
+        { "en": "180°", "np": "१८०°" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The dot product of A = (i + j) and B = (i - j) is A·B = (1)(1) + (1)(-1) = 1 - 1 = 0. Since the dot product is 0, the angle between them is 90°.",
+        "np": "A = (i + j) र B = (i - j) को डट गुणनफल A·B = (१)(१) + (१)(-१) = ० हुन्छ। डट गुणनफल शून्य भएकोले तिनीहरू बीचको कोण ९०° हुन्छ।"
+      }
+    },
+    {
+      "id": 8,
+      "grade": 11,
+      "chapter": 3,
+      "question": {
+        "en": "For a projectile, the ratio of maximum height to the horizontal range is tanθ multiplied by:",
+        "np": "प्रक्षेप्यका लागि, अधिकतम उचाइ र तेर्सो दूरीको अनुपात tanθ लाई केले गुणन गर्दा बराबर हुन्छ?"
+      },
+      "options": [
+        { "en": "1/4", "np": "१/४" },
+        { "en": "1/2", "np": "१/२" },
+        { "en": "2", "np": "२" },
+        { "en": "4", "np": "४" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Maximum height H = u² sin²θ / 2g. Range R = u² 2 sinθ cosθ / g. Therefore, H / R = (sin²θ / 2) / (2 sinθ cosθ) = sinθ / (4 cosθ) = 1/4 tanθ.",
+        "np": "अधिकतम उचाइ H = u² sin²θ / २g र दूरी R = u² २ sinθ cosθ / g हुन्छ। तसर्थ, H / R = (sin²θ / २) / (२ sinθ cosθ) = १/४ tanθ हुन्छ।"
+      }
+    },
+    {
+      "id": 9,
+      "grade": 12,
+      "chapter": 1,
+      "question": {
+        "en": "The moment of inertia of a uniform thin rod of mass M and length L about an axis perpendicular to the rod and passing through its center is:",
+        "np": "M पिण्ड र L लम्बाइ भएको मसिनो लठ्ठीको केन्द्रबाट लम्ब भएर जाने अक्षको जडता आघूर्ण कति हुन्छ?"
+      },
+      "options": [
+        { "en": "ML² / 12", "np": "ML² / १२" },
+        { "en": "ML² / 3", "np": "ML² / ३" },
+        { "en": "ML² / 2", "np": "ML² / २" },
+        { "en": "ML²", "np": "ML²" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "By derivation, the moment of inertia of a thin rod about its central transverse axis is I = ML²/12. About one of its ends, it would be ML³/3 (using parallel axis theorem).",
+        "np": "केन्द्रविन्दुबाट जाने अक्षको जडता आघूर्ण I = ML²/१२ हुन्छ। यदि फेद (End) बाट जाने अक्ष भएमा यो ML²/३ हुन्थ्यो।"
+      }
+    },
+    {
+      "id": 10,
+      "grade": 12,
+      "chapter": 2,
+      "question": {
+        "en": "The time period of a simple pendulum inside a lift falling freely under gravity is:",
+        "np": "स्वतन्त्र रूपमा खसिरहेको लिफ्ट भित्र रहेको सरल पेन्डुलमको आवर्तकाल कति हुन्छ?"
+      },
+      "options": [
+        { "en": "Zero", "np": "शून्य" },
+        { "en": "Infinite", "np": "अनन्त (Infinite)" },
+        { "en": "2 seconds", "np": "२ सेकेन्ड" },
+        { "en": "Remains unchanged", "np": "परिवर्तन हुँदैन" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "In a freely falling lift, the effective acceleration due to gravity is g' = g - g = 0. The time period is T = 2π √(l/g') = 2π √(l/0) = ∞ (infinite). Thus, the pendulum does not oscillate at all.",
+        "np": "स्वतन्त्र रूपमा खसिरहेको लिफ्टमा प्रभावकारी गुरुत्वप्रवेग g' = g - g = ० हुन्छ। आवर्तकाल T = २π√(l/g') = २π√(l/०) = अनन्त (∞) हुन्छ। अर्थात् यो पेन्डुलम हल्लिँदैन।"
+      }
+    }
+  ]
+}

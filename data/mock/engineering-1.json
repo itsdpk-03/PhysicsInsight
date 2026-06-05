@@ -1,0 +1,220 @@
+{
+  "id": 1,
+  "title": { "en": "IOE Engineering Practice Test 1", "np": "IOE इन्जिनियरिङ अभ्यास परीक्षा १" },
+  "type": "engineering",
+  "duration": 2700,
+  "totalMarks": 20,
+  "negativeMarkingRate": 0.1,
+  "questions": [
+    {
+      "id": 1,
+      "grade": 11,
+      "chapter": 1,
+      "marks": 1,
+      "question": {
+        "en": "The dimensional formula of Coefficient of Viscosity is:",
+        "np": "चिपचिपाहट गुणांक (Coefficient of Viscosity) को आयामीय सूत्र के हो?"
+      },
+      "options": [
+        { "en": "[M L⁻¹ T⁻¹]", "np": "[M L⁻¹ T⁻¹]" },
+        { "en": "[M L⁻² T⁻¹]", "np": "[M L⁻² T⁻¹]" },
+        { "en": "[M L T⁻¹]", "np": "[M L T⁻¹]" },
+        { "en": "[M L⁻¹ T⁻²]", "np": "[M L⁻¹ T⁻²]" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "From Newton's law of viscosity, F = ηA(dv/dx) ⇒ η = F / [A(dv/dx)] = [M L T⁻²] / ([L²] * [T⁻¹]) = [M L⁻¹ T⁻¹].",
+        "np": "न्यूटनको चिपचिपाहटको नियम अनुसार F = ηA(dv/dx) ⇒ η = F / [A(dv/dx)] = [M L T⁻²] / ([L²] * [T⁻¹]) = [M L⁻¹ T⁻¹] हुन्छ।"
+      }
+    },
+    {
+      "id": 2,
+      "grade": 11,
+      "chapter": 2,
+      "marks": 1,
+      "question": {
+        "en": "Two vectors A and B are such that |A + B| = |A - B|. The angle between A and B is:",
+        "np": "दुई सदिशहरू A र B का लागि |A + B| = |A - B| हुन्छ भने तिनीहरू बीचको कोण कति हो?"
+      },
+      "options": [
+        { "en": "0°", "np": "०°" },
+        { "en": "60°", "np": "६०°" },
+        { "en": "90°", "np": "९०°" },
+        { "en": "180°", "np": "१८०°" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Squaring both sides of |A + B| = |A - B| gives A² + B² + 2AB cosθ = A² + B² - 2AB cosθ ⇒ 4AB cosθ = 0. Since A and B are non-zero, cosθ = 0 ⇒ θ = 90°.",
+        "np": "|A + B| = |A - B| को दुवै तर्फ वर्ग गर्दा A² + B² + २AB cosθ = A² + B² - २AB cosθ ⇒ ४AB cosθ = ० ⇒ θ = ९०° हुन्छ।"
+      }
+    },
+    {
+      "id": 3,
+      "grade": 11,
+      "chapter": 3,
+      "marks": 1,
+      "question": {
+        "en": "A projectile is fired at a speed of 10 m/s at an angle of 15° with the horizontal. Its horizontal range will be: (g = 10 m/s²)",
+        "np": "एउटा प्रक्षेप्यलाई १० मि/से को गतिमा तेर्सोसँग १५° को कोण पारेर फ्याँकिन्छ। यसको तेर्सो दूरी (Range) कति हुन्छ? (g = १० मि/से²)"
+      },
+      "options": [
+        { "en": "2.5 m", "np": "२.५ मिटर" },
+        { "en": "5.0 m", "np": "५.० मिटर" },
+        { "en": "7.5 m", "np": "७.५ मिटर" },
+        { "en": "10 m", "np": "१० मिटर" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Horizontal range R = u² sin2θ / g. Here, u = 10 m/s, θ = 15°. So R = (10)² * sin(30°) / 10 = 100 * 0.5 / 10 = 5 meters.",
+        "np": "तेर्सो दूरी R = u² sin2θ / g। यहाँ, u = १० मि/से, θ = १५°। त्यसैले R = (१०)² * sin(३०°) / १० = १०० * ०.५ / १० = ५ मिटर हुन्छ।"
+      }
+    },
+    {
+      "id": 4,
+      "grade": 12,
+      "chapter": 1,
+      "marks": 1,
+      "question": {
+        "en": "If a solid sphere and a hollow sphere of same mass and radius are rolled down an inclined plane, which one reaches the bottom first?",
+        "np": "यदि समान पिण्ड र अर्धव्यास भएका एउटा ठोस गोला (Solid sphere) र एउटा खोक्रो गोला (Hollow sphere) लाई भिरालो सतहबाट गुडाउन थालियो भने, कुन पहिले फेदमा पुग्छ?"
+      },
+      "options": [
+        { "en": "Solid sphere", "np": "ठोस गोला (Solid sphere)" },
+        { "en": "Hollow sphere", "np": "खोक्रो गोला (Hollow sphere)" },
+        { "en": "Both together", "np": "दुवै एकैसाथ" },
+        { "en": "Depends on mass", "np": "पिण्डमा निर्भर गर्छ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Solid sphere has a smaller moment of inertia (0.4 MR²) compared to hollow sphere (0.67 MR²). A smaller moment of inertia means less resistance to rotation, leading to greater acceleration and reaching the bottom first.",
+        "np": "ठोस गोलाको जडता आघूर्ण (०.४ MR²) खोक्रो गोलाको भन्दा (०.६७ MR²) कम हुन्छ। कम जडता आघूर्ण हुनु भनेको घूर्णनको गति परिवर्तनलाई सजिलै स्वीकार गर्नु हो, जसले गर्दा यसको गति बढी हुन्छ र यो छिटो पुग्छ।"
+      }
+    },
+    {
+      "id": 5,
+      "grade": 12,
+      "chapter": 2,
+      "marks": 1,
+      "question": {
+        "en": "If the length of a simple pendulum is increased by 44%, the percentage increase in its time period is:",
+        "np": "यदि सरल पेन्डुलमको लम्बाइ ४४% ले बढाइयो भने, यसको आवर्तकाल कति प्रतिशतले बढ्छ?"
+      },
+      "options": [
+        { "en": "20%", "np": "२०%" },
+        { "en": "22%", "np": "२२%" },
+        { "en": "44%", "np": "४४%" },
+        { "en": "12%", "np": "१२%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Time period T = 2π√(l/g) ⇒ T ∝ √l. If l' = 1.44l, then T' = √(1.44l) = 1.2 √(l) = 1.2T. The increase is (1.2T - T) / T * 100 = 20%.",
+        "np": "आवर्तकाल T = २π√(l/g) ⇒ T ∝ √l। यदि लम्बाइ १.४४ गुणा (४४% वृद्धि) हुन्छ भने, T' = √(१.४४) = १.२T (२०% वृद्धि) हुन्छ।"
+      }
+    },
+    {
+      "id": 6,
+      "grade": 11,
+      "chapter": 1,
+      "marks": 2,
+      "question": {
+        "en": "The density of a cube is measured by measuring its mass and length of its sides. If the maximum error in mass is 3% and in length is 2%, the maximum error in density is:",
+        "np": "एउका घन (Cube) को पिण्ड र लम्बाई नापेर घनत्व निकालिन्छ। यदि पिण्ड नाप्दा ३% र लम्बाई नाप्दा २% त्रुटि हुन्छ भने, घनत्व मापनमा हुने अधिकतम त्रुटि कति हो?"
+      },
+      "options": [
+        { "en": "5%", "np": "५%" },
+        { "en": "7%", "np": "७%" },
+        { "en": "9%", "np": "९%" },
+        { "en": "1%", "np": "१%" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Density ρ = Mass / Volume = M / L³. In error propagation: Δρ/ρ = ΔM/M + 3(ΔL/L). Maximum percentage error = 3% + 3(2%) = 3% + 6% = 9%.",
+        "np": "घनत्व ρ = M / L³। सापेक्ष त्रुटिको सूत्र: Δρ/ρ = ΔM/M + ३(ΔL/L)। जम्मा प्रतिशत त्रुटि = ३% + ३(२%) = ९% हुन्छ।"
+      }
+    },
+    {
+      "id": 7,
+      "grade": 11,
+      "chapter": 2,
+      "marks": 2,
+      "question": {
+        "en": "A particle of mass m is moving with constant speed v along a circle of radius r. The change in momentum of the particle when it describes an angle of 60° along the circle is:",
+        "np": "r अर्धव्यास भएको वृत्तमा v गतिमा मन्थर रूपले गुडिरहेको m पिण्ड भएको कणको कोणीय घुमाउरो ६०° हुँदा संवेगमा आउने परिवर्तन (Change in momentum) कति हुन्छ?"
+      },
+      "options": [
+        { "en": "mv", "np": "mv" },
+        { "en": "mv / 2", "np": "mv / २" },
+        { "en": "√3 mv", "np": "√३ mv" },
+        { "en": "2 mv", "np": "२ mv" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The change in velocity vector when a particle moves through angle θ is Δv = 2v sin(θ/2). For θ = 60°, Δv = 2v sin(30°) = 2v * (0.5) = v. Change in momentum = m * Δv = mv.",
+        "np": "θ कोणमा घुम्दा वेगमा हुने परिवर्तन Δv = २v sin(θ/२) हुन्छ। θ = ६०° को लागि Δv = २v sin(३०°) = v। तसर्थ, संवेगमा हुने परिवर्तन = mv हुन्छ।"
+      }
+    },
+    {
+      "id": 8,
+      "grade": 11,
+      "chapter": 3,
+      "marks": 2,
+      "question": {
+        "en": "A river is flowing from west to east at a speed of 5 m/min. A man on the south bank, capable of swimming at 10 m/min in still water, wants to swim across the river in the shortest time. He should swim in a direction:",
+        "np": "एउटा नदी ५ मि/मिनेट को वेगमा पश्चिमबाट पूर्व तर्फ बगिरहेको छ। नदीको दक्षिणी किनारमा रहेको मानिस (स्थिर पानीमा १० मि/मिनेट पौडन सक्ने) सबैभन्दा छोटो समयमा नदी पार गर्न चाहन्छ। उसले कुन दिशामा पौडनु पर्छ?"
+      },
+      "options": [
+        { "en": "Due North", "np": "सिधै उत्तर तर्फ (Due North)" },
+        { "en": "30° West of North", "np": "उत्तरबाट ३०° पश्चिम तर्फ" },
+        { "en": "30° East of North", "np": "उत्तरबाट ३०° पूर्व तर्फ" },
+        { "en": "60° West of North", "np": "उत्तरबाट ६०° पश्चिम तर्फ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The time to cross a river of width d is t = d / (v_m cosθ). For the time to be minimum, cosθ must be maximum (1), which means θ = 0°. He must swim perpendicular to the flow, i.e., due North. Note that he will drift down the river, but the crossing time itself will be the shortest.",
+        "np": "नदी पार गर्न लाग्ने समय t = d / (v_m cosθ) हुन्छ। यो समय न्यूनतम हुन cosθ = १ हुनुपर्छ, अर्थात् θ = ०° (बहाबसँग लम्ब रूपमा) पौडनु पर्छ। दक्षिणबाट नदी पार गर्न उत्तर दिशा तर्फ सिधै पौडनु पर्छ।"
+      }
+    },
+    {
+      "id": 9,
+      "grade": 12,
+      "chapter": 1,
+      "marks": 2,
+      "question": {
+        "en": "A circular disc of mass 2 kg and radius 0.1 m is spinning about its central axis. A constant torque of 0.2 N-m is applied to it. The angular acceleration produced in the disc is:",
+        "np": "२ केजी पिण्ड र ०.१ मिटर अर्धव्यास भएको चक्र (Disc) आफ्नो केन्द्र अक्ष वरिपरि घुमिरहेको छ। यसमा ०.२ N-m को बल आघूर्ण (Torque) लगाइन्छ। यसबाट उत्पन्न हुने कोणीय प्रवेग कति हुन्छ?"
+      },
+      "options": [
+        { "en": "10 rad/s²", "np": "१० rad/s²" },
+        { "en": "20 rad/s²", "np": "२० rad/s²" },
+        { "en": "5 rad/s²", "np": "५ rad/s²" },
+        { "en": "40 rad/s²", "np": "४० rad/s²" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "For a circular disc, Moment of Inertia I = 0.5 MR² = 0.5 * 2 * (0.1)² = 0.01 kg m². We know τ = Iα ⇒ α = τ / I = 0.2 / 0.01 = 20 rad/s².",
+        "np": "चक्रका लागि जडता आघूर्ण I = ०.५ MR² = ०.५ * २ * (०.१)² = ०.०१ केजी मि²। सूत्र τ = Iα बाट, कोणीय प्रवेग α = τ / I = ०.२ / ०.०१ = २० rad/s² हुन्छ।"
+      }
+    },
+    {
+      "id": 10,
+      "grade": 12,
+      "chapter": 2,
+      "marks": 2,
+      "question": {
+        "en": "The displacement of a particle executing SHM is given by y = 5 sin(10t + π/6) in meters. The maximum velocity of the particle is:",
+        "np": "सरल आवर्त गतिमा रहेको कणको विस्थापन y = ५ sin(१०t + π/६) मिटर छ। यसको अधिकतम वेग कति हुन्छ?"
+      },
+      "options": [
+        { "en": "5 m/s", "np": "५ मि/से" },
+        { "en": "10 m/s", "np": "१० मि/से" },
+        { "en": "50 m/s", "np": "५० मि/से" },
+        { "en": "2.5 m/s", "np": "२.५ मि/से" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Comparing with standard SHM equation y = A sin(ωt + φ), we get amplitude A = 5 m and angular frequency ω = 10 rad/s. Maximum velocity v_max = Aω = 5 * 10 = 50 m/s.",
+        "np": "समीकरण y = A sin(ωt + φ) सँग तुलना गर्दा, आयाम A = ५ मिटर र ω = १० rad/s हुन्छ। अधिकतम वेग v_max = Aω = ५ * १० = ५० मि/से हुन्छ।"
+      }
+    }
+  ]
+}
